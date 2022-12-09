@@ -1,0 +1,29 @@
+.layout {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+
+.layout .slider {
+    display: flex;
+    flex-direction: column;
+    width: 120px;
+    background-color: #04111F;
+    border-right: 1px solid #E2E2E2;
+}
+
+.layout .slider .item {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #A2A7AE;
+    padding: 8px 0px 8px;
+    cursor: pointer;
+}
+
+.layout .slider .activivty {
+    background-color: #1878FF;
+    color: white;
+}
